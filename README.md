@@ -1,2 +1,2 @@
-# Qu-n-l-kh-ch-s-n-t-ph-ng-
+# QuanLyKhachSan
 CN Web &amp; ứng dụng
