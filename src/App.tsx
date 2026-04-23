@@ -34,13 +34,13 @@ export default App;
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './hooks/useAuth';
-import Layout from './components/layout/Layout';
+import Layout from './components/Layout';
 
 // Import các trang
-import LoginPage from './pages/Auth/LoginPage';
-import Dashboard from './pages/Dashboard/Dashboard';
-import PhongPage from './pages/Room/PhongPage';
-import DatPhongPage from './pages/Booking/DatPhongPage';
+import LoginPage from './pages/LoginPage';
+import Dashboard from './pages/Dashboard';
+import PhongPage from './pages/RoomPage';
+import DatPhongPage from './pages/BookingPage';
 
 // PrivateRoute - bảo vệ trang cần đăng nhập
 const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
